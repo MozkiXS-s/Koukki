@@ -28,4 +28,5 @@ jobs:
         
     - name: Lancement du hook pre-commit
       run: |
-        .git/hooks/pre-commit
+        Set-ExecutionPolicy RemoteSigned -Scope Process # Autorise l'exécution du script
+        .git\hooks\pre-commit
