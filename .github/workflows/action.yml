@@ -21,8 +21,11 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8
-      
+
+    - name: Lecture du fichier pre-commit
+      run: |
+        Get-Content .git\hooks\pre-commit
+        
     - name: Lancement du hook pre-commit
       run: |
-        chmod +x .git/hooks/pre-commit
         .git/hooks/pre-commit
