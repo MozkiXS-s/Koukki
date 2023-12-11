@@ -22,7 +22,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8
       
-    -name: Lancement du hook pre-commit
+    - name: Lancement du hook pre-commit
       run: |
         chmod +x .git/hooks/pre-commit  # On met le hook en mode executable
         .git/hooks/pre-commit
