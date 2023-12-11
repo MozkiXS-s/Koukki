@@ -1,0 +1,28 @@
+name: Action
+on:
+  push:
+    branches:
+      - main  # Remplacez par le nom de votre branche principale
+
+jobs:
+  Action:
+    runs-on: windows-latest  # Changer pour l'environnement Windows
+
+    steps:
+    - name: Recuperation du code du dépot
+      uses: actions/checkout@v2
+
+    - name: Configuration environnement python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.12  # Remplacez par la version de Python
+
+    - name: Installation des dépendances
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8
+      
+    -name: Lancement du hook pre-commit
+      run: |
+        chmod +x .git/hooks/pre-commit  # On met le hook en mode executable
+        .git/hooks/pre-commit
