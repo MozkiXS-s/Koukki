@@ -10,6 +10,6 @@
 
 ## Notes
 
-[Informations supplémentaires pour les personnes chargées de la relecture]
+[Informations supplémentaire]
 
 
