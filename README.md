@@ -19,7 +19,7 @@ Pour commander nos délicieux koukki, suivez ces étapes simples :
 
 ## Contact
 
-Si vous avez des questions, des suggestions ou si vous rencontrez des problèmes, n'hésitez pas à nous les faire remonter via les issue. Vous pouvez nous proposer de nouvelle recette de koukki. 
+Si vous avez des questions, des suggestions ou si vous rencontrez des problèmes, n'hésitez pas à nous les faire remonter via les issue. Vous pouvez aussi nous proposer de nouvelles recette de koukki. 
 
 
 ## Licence
